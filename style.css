@@ -1,0 +1,48 @@
+body {
+  font-family: sans-serif;
+  background: #222;
+  color: #fff;
+  text-align: center;
+  padding: 30px;
+}
+
+.container {
+  max-width: 500px;
+  margin: auto;
+}
+
+.inputs {
+  margin-bottom: 20px;
+}
+
+label {
+  display: block;
+  margin: 10px 0;
+}
+
+input {
+  padding: 5px;
+  width: 100px;
+}
+
+#spinBtn {
+  padding: 10px 20px;
+  font-size: 16px;
+  margin-bottom: 20px;
+  cursor: pointer;
+}
+
+#slots {
+  display: grid;
+  grid-template-columns: repeat(3, 80px);
+  grid-gap: 10px;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.slot-cell {
+  background: #444;
+  border: 2px solid #999;
+  font-size: 30px;
+  padding: 15px;
+}
